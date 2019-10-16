@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../src/App.svelte",
+    "../src/components/Home.svelte",
+    "../src/components/About.svelte",
+    "../src/routes/Home.svelte",
+    "../src/routes/About.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n\timport { Router, Link, Route } from \"svelte-routing\";\n\texport let name;\n\texport let url = \"\";\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello {name}!</h1>\n",
+    "<script>\n\t\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello1</h1>\n",
+    "<script>\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello</h1>\n",
+    "<script>\n\t\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello1</h1>\n",
+    "<script>\n</script>\n\n<style>\n\th1 {\n\t\tcolor: purple;\n\t}\n</style>\n\n<h1>Hello</h1>\n"
+  ],
+  "names": [],
+  "mappings": "AAOC,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC;ACJD,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC;ACHD,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC;ACDD,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC;ACHD,EAAE,cAAC,CAAC,AACH,KAAK,CAAE,MAAM,AACd,CAAC"
+}
